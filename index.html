@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake Water Gun</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="game">
+<h1>
+🐍 Snake Water Gun
+</h1>
+<p class="subtitle">
+Choose your weapon and defeat the AI
+</p>
+<div class="choices">
+<button onclick="play(0)">
+<img src="snake.png">
+<span>Snake</span>
+</button>
+<button onclick="play(1)">
+<img src="water.png">
+<span>Water</span>
+</button>
+<button onclick="play(2)">
+<img src="gun.png">
+<span>Gun</span>
+</button>
+</div>
+<div class="result-box">
+<h2 id="computer">
+Computer : Waiting...
+</h2>
+<h2 id="result">
+Make your move!
+</h2>
+<h3 id="score">
+You : 0 | Computer : 0
+</h3>
+</div>
+<button class="reset" onclick="resetGame()">
+Reset Game
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
