@@ -105,3 +105,4 @@ This project is open source and available under the MIT License.
 ---
 
 Made by using C.
+My friend helped me in making UI and also used css , html and javascript.
